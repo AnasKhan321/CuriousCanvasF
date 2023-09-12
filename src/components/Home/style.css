@@ -1,0 +1,138 @@
+.Home{
+
+    width: 100vw;
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    overflow-x: hidden;
+
+
+}
+
+.type{
+
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    display: block;
+    font-weight: bold;
+    height: 50px;
+}
+.b{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.typee{
+    margin-top: 10px;
+}
+.btn2{
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+  
+    padding: 8px 20px;
+}
+
+.btn2:hover{
+
+    color: black;
+    background: var(--global--color-primary);
+    transition: all ;
+    cursor: pointer;
+}
+.img img{
+    width: 27vw;
+}
+.container{
+    overflow-x: hidden;
+
+}
+.contain{
+    max-width: 75vw;
+    margin: 0 auto;
+    display: flex;
+    padding: 5px 40px;
+    margin-top: 20px;
+ 
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img2 img{
+    width: 20vw;
+}
+.blogs{
+    display: flex;
+    justify-content: space-around;
+}
+.blog{
+
+    width: 25vw;
+    padding: 5px 15px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.trnd{
+    text-align: center;
+}
+.author{
+    align-self: flex-start;
+}
+
+.blogcontent h5{
+    font-size: 25px ;
+    font-weight: bold;
+}
+.btn3{
+    padding: 5px 10px;
+    background: orange;
+    border: 2px solid #ffc3ab;
+    color: white;
+    border-radius: 5px;
+    align-self: flex-start;
+    cursor: pointer;
+}
+
+.text-white{
+    color: white;
+    text-decoration: none;
+}
+
+.blog{
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+}
+
+@media only screen and (max-width: 1000px){
+	.contain{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .blogs{
+        flex-direction: column;
+        align-items: center;
+    }
+    .blog{
+        width: 80vw;
+        margin: 20px 0px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .img img{
+        width: 45vw;
+    }
+}

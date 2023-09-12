@@ -1,0 +1,6 @@
+.signup form textarea{
+        width: 40vw;
+        border: 2px solid orange;
+        border-radius: 10px;
+        padding: 5px 10px;
+}
